@@ -1,8 +1,8 @@
-import Sidebar from "@/components/ui/Sidebar";
 import Image from "next/image";
-import MobileNav from "@/components/ui/MobileNav";
 import { getLoggedInUSer } from "@/lib/actions/user.actions";
 import { redirect } from "next/navigation";
+import Sidebar from "@/components/Sidebar";
+import MobileNav from "@/components/MobileNav";
 
 export default async function RootLayout({children,}:
     Readonly<{ children: React.ReactNode; }>) {

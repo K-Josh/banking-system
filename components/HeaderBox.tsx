@@ -1,3 +1,4 @@
+import { HeaderBoxProps } from '@/types';
 import React from 'react';
 
 function HeaderBox({type = 'title', title, user, subtext}: HeaderBoxProps) {

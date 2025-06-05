@@ -32,7 +32,8 @@ const PlaidLink = ({user, variant}: PlaidLinkProps) => {
         onSuccess
     }
 
-    const { open, ready } = usePlaidLink(config)
+  const { open, ready } = usePlaidLink(config);
+
   return (
      <>
       {variant === 'primary' ? (

@@ -2,7 +2,7 @@ import React from 'react';
 import {RightSidebarProps} from "@/types";
 import Link from "next/link";
 import Image from "next/image";
-import BankCard from "@/components/ui/BankCard";
+import BankCard from './BankCard';
 
 function RightSidebar({user, banks, transactions}:RightSidebarProps) {
     return (
